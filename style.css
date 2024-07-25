@@ -1502,7 +1502,7 @@ ul {
 }
 @media (min-width: 1024px) {
   .category-content {
-    flex: 0 0 80%;
+    flex: 0 0 90%;
   }
 }
 
@@ -4862,3 +4862,26 @@ ol.RoundNumbers>li:before {
   margin-left: 40px;
 }
 
+
+/* ---------------------------------------------------- */
+
+
+/* widen readable area */
+@media (min-width: 1024px) {
+  .article {
+    max-width: 100%;
+    margin-left: 60px;
+    margin-right: 100px;
+  }
+
+@media (min-width: 1024px) {
+  .category-container {
+    max-width: 100%;
+  }
+  
+  .container,
+  .header,
+  .footer-inner{
+    max-width:70vw;
+  }
+}
