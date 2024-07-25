@@ -4724,7 +4724,7 @@ zd-summary-block {
 
 /* -------EB360 customisations-------- */
 
-/* Notes and warnings */
+/* Notes */
 .eb360note {
   background-color: #F2F8FB;
   border-radius: 8px;
@@ -4758,7 +4758,43 @@ zd-summary-block {
   color: black;
 }
 
+/* warnings */
 
+.warning {
+  background-color: #FBEEE5;
+  border-radius: 8px;
+  padding: 8px 8px 8px 12px;
+  text-indent: 0px;
+  border: 1px solid #D76317;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  width: 98%;
+}
+.warning:before {
+  content: "Caution: ";
+  font-weight: bold;
+  color: Black;
+}
+
+.indentWarning {
+  background-color: #FBEEE5;
+  border-radius: 8px;
+  padding: 8px 8px 8px 12px;
+  text-indent: 0px;
+  border: 1px solid #D76317;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 40px;
+  width: 95%;	
+}
+.indentWarning:before {
+  content: "Caution: ";
+  font-weight: bold;
+  color: black;
+}
+
+
+/* ---------------------------------------------------- */
 
 /* Round number style */
 ol.RoundNumbers {
@@ -4799,6 +4835,9 @@ ol.RoundNumbers>li:before {
   line-height: var(--prefix-size);
 }
 
+/* ---------------------------------------------------- */
+
+
 /* Quotations */
 .quote {
   width: fit-content;
@@ -4814,6 +4853,9 @@ ol.RoundNumbers>li:before {
 .quote blockquote {
   margin: 10px;
 }
+
+
+/* ---------------------------------------------------- */
 
 /* Indented text */
 .textIndent {
