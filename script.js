@@ -17,6 +17,18 @@
     toggle.focus();
   }
 
+  // Redirects for deleted articles
+  
+  var oldIds = ["5319534092828", "4936079009820"];
+  var newIds = ["14427922771868", "14427922771868"];
+
+  for (var i = 0; i < oldIds.length; i++){
+    if (window.location.href.indexOf(oldIds[i]) > -1) {
+      window.location.href = 'https://ethixbase.zendesk.com/hc/en-us/articles/' + newIds[i]; 
+    }
+  }
+  
+  
   // Navigation
 
   window.addEventListener("DOMContentLoaded", () => {
