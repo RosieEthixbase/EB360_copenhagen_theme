@@ -4733,7 +4733,7 @@ zd-summary-block {
   border: 1px solid #41B7DD;
   margin-top: 12px;
   margin-bottom: 12px;
-  width: 98%;
+  width: 99%;
 }
 .eb360note:before {
   content: "Note: ";
@@ -4768,7 +4768,7 @@ zd-summary-block {
   border: 1px solid #D76317;
   margin-top: 12px;
   margin-bottom: 12px;
-  width: 98%;
+  width: 99%;
 }
 .warning:before {
   content: "Caution: ";
